@@ -10,25 +10,25 @@ public class Main {
         //массив 3
         int[] massive3 = {5, 10, 15, 20};
         //вывели первый
-        for (int i = 0; i < massive1.length; i++) {
+        for (int i = massive1.length - 1; i >= 0; i--) {
             System.out.print(massive1[i]);
-            if (i != massive1.length - 1) {
+            if (i != 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         //вывели второй
-        for (double a = 0; a < massive2.length; a++) {
+        for (double a = massive2.length - 1; a >= 0; a--) {
             System.out.print(massive2[(int) a]);
-            if (a != massive1.length - 1) {
+            if (a != 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         //вывели третий
-        for (int b = 0; b < massive3.length; b++) {
+        for (int b = massive3.length - 1; b >=0; b--) {
             System.out.print(massive3[b]);
-            if (b != massive3.length - 1) {
+            if (b != 0) {
                 System.out.print(", ");
             }
         }
